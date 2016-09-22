@@ -1,10 +1,11 @@
 #!/usr/bin/env perl6
 # -*- coding: utf-8 -*-
-module Vasco;
 =begin comment
     This is a demo of Perl6's powerful unicode operators
     Plus you get to know a lot of Perl6 new syntax
 =end comment
+
+module Vasco;
 
 sub infix:<✠> (@list, $object) is export(:MANDATORY) {
 
